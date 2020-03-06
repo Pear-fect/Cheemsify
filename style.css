@@ -1,0 +1,14 @@
+body{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    font-size: 10vh;
+}
+
+a{
+    color: red;
+}
