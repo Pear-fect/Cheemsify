@@ -1,1 +1,6 @@
-javascript:(function(){ console.log(document.body.innerText.split(" ")(10))}())
+javascript:(function(){ 
+    let pageText = document.body.innerText.split(" ")
+    for(let i = 0; i < text.length; i++){
+        console.log(pageText(i) + ": " + i)
+    }
+}())
