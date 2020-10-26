@@ -1,6 +1,6 @@
 javascript:(function(){ 
     let pageText = document.body.innerText.split(" ")
-    for(let i = 0; i < text.length; i++){
-        console.log(pageText(i) + ": " + i)
+    for(let i = 0; i < pageText.length; i++){
+        console.log(pageText(i) + ":s " + i)
     }
 }())
