@@ -1,1 +1,1 @@
-javascript:(function(){ console.log(document.body.innerText.split(" "))}())
+javascript:(function(){ console.log(document.body.innerText.split(" ")(10))}())
