@@ -3,10 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-div{
-    font-size: 10vh;
+    font-size: xx-large;
 }
 
 a{
