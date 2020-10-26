@@ -1,6 +1,7 @@
 javascript:(function(){ 
-    let pageText = document.body.innerText.replace(/[^\w\s]/g,'').split(/[\n\s]/)
+    let pageText = document.body.innerText.split(/[\n\s]/)
     for(let i = 0; i < pageText.length; i++){
-        if(pageText[i].length > 2) console.log(pageText[i] + ": " + i)
+        if(pageText[i].length > 2 && /^[a-zA-Z]+$/.test(str)) console.log(pageText[i] + ": " + i)
     }
+    document.body.innerText = pageText
 }())
